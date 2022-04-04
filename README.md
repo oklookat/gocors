@@ -1,0 +1,2 @@
+# gocors
+golang cors handler
