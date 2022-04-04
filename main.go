@@ -1,4 +1,4 @@
-package cors
+package gocors
 
 import (
 	"errors"
@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	ErrConfigNil = errors.New("[CORS] config nil pointer")
+	ErrConfigNil = errors.New("[gocors] config nil pointer")
 )
 
 type Instance struct {
